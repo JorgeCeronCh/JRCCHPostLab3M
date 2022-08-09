@@ -1,0 +1,577 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"12 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\spi.c
+[e E1292 . `uc
+SPI_MASTER_OSC_DIV4 32
+SPI_MASTER_OSC_DIV16 33
+SPI_MASTER_OSC_DIV64 34
+SPI_MASTER_TMR2 35
+SPI_SLAVE_SS_EN 36
+SPI_SLAVE_SS_DIS 37
+]
+[e E1300 . `uc
+SPI_DATA_SAMPLE_MIDDLE 0
+SPI_DATA_SAMPLE_END 128
+]
+[e E1304 . `uc
+SPI_CLOCK_IDLE_HIGH 16
+SPI_CLOCK_IDLE_LOW 0
+]
+[e E1308 . `uc
+SPI_IDLE_2_ACTIVE 0
+SPI_ACTIVE_2_IDLE 64
+]
+"172 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[e E1349 . `uc
+SPI_MASTER_OSC_DIV4 32
+SPI_MASTER_OSC_DIV16 33
+SPI_MASTER_OSC_DIV64 34
+SPI_MASTER_TMR2 35
+SPI_SLAVE_SS_EN 36
+SPI_SLAVE_SS_DIS 37
+]
+[e E1357 . `uc
+SPI_DATA_SAMPLE_MIDDLE 0
+SPI_DATA_SAMPLE_END 128
+]
+[e E1361 . `uc
+SPI_CLOCK_IDLE_HIGH 16
+SPI_CLOCK_IDLE_LOW 0
+]
+[e E1365 . `uc
+SPI_IDLE_2_ACTIVE 0
+SPI_ACTIVE_2_IDLE 64
+]
+"505 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"16 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\LCD8.c
+[v _Lcd8_Cmd Lcd8_Cmd `(v  1 e 1 0 ]
+"31
+[v _Lcd8_Set_Cursor Lcd8_Set_Cursor `(v  1 e 1 0 ]
+"46
+[v _Lcd8_Init Lcd8_Init `(v  1 e 1 0 ]
+"62
+[v _Lcd8_Write_Char Lcd8_Write_Char `(v  1 e 1 0 ]
+"72
+[v _Lcd8_Write_String Lcd8_Write_String `(v  1 e 1 0 ]
+"64 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[v _isr isr `II(v  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+"160
+[v _setup setup `(v  1 e 1 0 ]
+"179
+[v _map map `(us  1 e 2 0 ]
+"11 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\oscilador.c
+[v _int_osc_MHz int_osc_MHz `(v  1 e 1 0 ]
+"12 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\spi.c
+[v _spiInit spiInit `(v  1 e 1 0 ]
+"29
+[v _spiReceiveWait spiReceiveWait `(v  1 s 1 spiReceiveWait ]
+"34
+[v _spiWrite spiWrite `(v  1 e 1 0 ]
+"47
+[v _spiRead spiRead `(uc  1 e 1 0 ]
+"13 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\tmr0.c
+[v _tmr0_init tmr0_init `(v  1 e 1 0 ]
+"58
+[v _tmr0_reload tmr0_reload `(v  1 e 1 0 ]
+[v i1_tmr0_reload tmr0_reload `(v  1 e 1 0 ]
+"60 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+[s S375 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"308
+[u S384 . 1 `S375 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES384  1 e 1 @7 ]
+"353
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"415
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S289 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"428
+[u S294 . 1 `S289 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES294  1 e 1 @9 ]
+[s S210 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"483
+[s S219 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S224 . 1 `S210 1 . 1 0 `S219 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES224  1 e 1 @11 ]
+"844
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"851
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S184 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1367
+[s S191 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S195 . 1 `S184 1 . 1 0 `S191 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES195  1 e 1 @129 ]
+[s S354 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1558
+[u S363 . 1 `S354 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES363  1 e 1 @135 ]
+"1603
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S339 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+`uc 1 TRISE3 1 0 :1:3 
+]
+"1678
+[u S344 . 1 `S339 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES344  1 e 1 @137 ]
+[s S22 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1883
+[s S28 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S33 . 1 `S22 1 . 1 0 `S28 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES33  1 e 1 @143 ]
+"2178
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S75 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"2232
+[s S84 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S89 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S95 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S100 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S105 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S110 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S115 . 1 `S75 1 . 1 0 `S84 1 . 1 0 `S89 1 . 1 0 `S95 1 . 1 0 `S100 1 . 1 0 `S105 1 . 1 0 `S110 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES115  1 e 1 @148 ]
+"3388
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4156
+[v _RC6 RC6 `VEb  1 e 0 @62 ]
+"4159
+[v _RC7 RC7 `VEb  1 e 0 @63 ]
+"4462
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4468
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"358 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"43 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[v _ADRESH1 ADRESH1 `ui  1 e 2 0 ]
+"44
+[v _ADRESH2 ADRESH2 `ui  1 e 2 0 ]
+"45
+[v _ADRESL1 ADRESL1 `ui  1 e 2 0 ]
+"46
+[v _ADRESL2 ADRESL2 `ui  1 e 2 0 ]
+"47
+[v _i i `uc  1 e 1 0 ]
+"48
+[v _VALOR_DESC VALOR_DESC `uc  1 e 1 0 ]
+"49
+[v _ADREST1 ADREST1 `ui  1 e 2 0 ]
+"50
+[v _ADREST2 ADREST2 `ui  1 e 2 0 ]
+"51
+[v _MAP1 MAP1 `ui  1 e 2 0 ]
+"52
+[v _MAP2 MAP2 `ui  1 e 2 0 ]
+"53
+[v _UNI UNI `i  1 e 2 0 ]
+"54
+[v _DECI DECI `i  1 e 2 0 ]
+"55
+[v _UNI2 UNI2 `i  1 e 2 0 ]
+"56
+[v _DECI2 DECI2 `i  1 e 2 0 ]
+"57
+[v _VALORES1 VALORES1 `[10]uc  1 e 10 0 ]
+"58
+[v _VALORES2 VALORES2 `[10]uc  1 e 10 0 ]
+"59
+[v _CONT_TMR0 CONT_TMR0 `uc  1 e 1 0 ]
+"60
+[v _MOSTRAR MOSTRAR `uc  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+{
+"155
+} 0
+"58 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\tmr0.c
+[v _tmr0_reload tmr0_reload `(v  1 e 1 0 ]
+{
+"62
+} 0
+"13
+[v _tmr0_init tmr0_init `(v  1 e 1 0 ]
+{
+[v tmr0_init@prescaler prescaler `uc  1 a 1 wreg ]
+[v tmr0_init@prescaler prescaler `uc  1 a 1 wreg ]
+[v tmr0_init@prescaler prescaler `uc  1 a 1 5 ]
+"56
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"545
+[v sprintf@val val `ui  1 a 2 20 ]
+"512
+[v sprintf@c c `uc  1 a 1 23 ]
+"521
+[v sprintf@prec prec `c  1 a 1 19 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 18 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 17 ]
+"505
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 9 ]
+"550
+[v sprintf@sp sp `*.4uc  1 a 1 22 ]
+"1567
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 8 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 3 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 5 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 1 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 3 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+"30
+} 0
+"34 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\spi.c
+[v _spiWrite spiWrite `(v  1 e 1 0 ]
+{
+[v spiWrite@dat dat `uc  1 a 1 wreg ]
+[v spiWrite@dat dat `uc  1 a 1 wreg ]
+"36
+[v spiWrite@dat dat `uc  1 a 1 3 ]
+"37
+} 0
+"47
+[v _spiRead spiRead `(uc  1 e 1 0 ]
+{
+"51
+} 0
+"29
+[v _spiReceiveWait spiReceiveWait `(v  1 s 1 spiReceiveWait ]
+{
+"32
+} 0
+"160 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[v _setup setup `(v  1 e 1 0 ]
+{
+"177
+} 0
+"12 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\spi.c
+[v _spiInit spiInit `(v  1 e 1 0 ]
+{
+[v spiInit@sType sType `E1292  1 a 1 wreg ]
+[v spiInit@sType sType `E1292  1 a 1 wreg ]
+[v spiInit@sDataSample sDataSample `E1300  1 p 1 3 ]
+[v spiInit@sClockIdle sClockIdle `E1304  1 p 1 4 ]
+[v spiInit@sTransmitEdge sTransmitEdge `E1308  1 p 1 5 ]
+"14
+[v spiInit@sType sType `E1292  1 a 1 6 ]
+"27
+} 0
+"179 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[v _map map `(us  1 e 2 0 ]
+{
+[v map@x x `ui  1 p 2 13 ]
+[v map@x0 x0 `uc  1 p 1 15 ]
+[v map@x1 x1 `ui  1 p 2 16 ]
+"180
+[v map@y0 y0 `us  1 p 2 18 ]
+[v map@y1 y1 `us  1 p 2 20 ]
+"182
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 3 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 4 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 79 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 78 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 4 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S804 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S809 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S812 . 4 `l 1 i 4 0 `d 1 f 4 0 `S804 1 fAsBytes 4 0 `S809 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S812  1 a 4 56 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 50 ]
+[s S881 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S884 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S881 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S884  1 a 2 60 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 55 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 54 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 49 ]
+"8
+[v ___flmul@b b `d  1 p 4 36 ]
+[v ___flmul@a a `d  1 p 4 40 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 3 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 30 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 23 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 28 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 35 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 34 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 27 ]
+"8
+[v ___fldiv@a a `d  1 p 4 10 ]
+[v ___fldiv@b b `d  1 p 4 14 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 3 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 2 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 1 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 0 ]
+"10
+[v ___fladd@b b `d  1 p 4 62 ]
+[v ___fladd@a a `d  1 p 4 66 ]
+"237
+} 0
+"11 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\oscilador.c
+[v _int_osc_MHz int_osc_MHz `(v  1 e 1 0 ]
+{
+[v int_osc_MHz@freq freq `uc  1 a 1 wreg ]
+[v int_osc_MHz@freq freq `uc  1 a 1 wreg ]
+[v int_osc_MHz@freq freq `uc  1 a 1 5 ]
+"30
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 0 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 3 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 5 ]
+"53
+} 0
+"72 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\LCD8.c
+[v _Lcd8_Write_String Lcd8_Write_String `(v  1 e 1 0 ]
+{
+"73
+[v Lcd8_Write_String@i i `uc  1 a 1 0 ]
+"72
+[v Lcd8_Write_String@a a `*.26uc  1 p 2 5 ]
+"76
+} 0
+"62
+[v _Lcd8_Write_Char Lcd8_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd8_Write_Char@a a `uc  1 a 1 wreg ]
+[v Lcd8_Write_Char@a a `uc  1 a 1 wreg ]
+"64
+[v Lcd8_Write_Char@a a `uc  1 a 1 4 ]
+"70
+} 0
+"31
+[v _Lcd8_Set_Cursor Lcd8_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd8_Set_Cursor@a a `uc  1 a 1 wreg ]
+"33
+[v Lcd8_Set_Cursor@x x `uc  1 a 1 1 ]
+"31
+[v Lcd8_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd8_Set_Cursor@b b `uc  1 p 1 6 ]
+"34
+[v Lcd8_Set_Cursor@a a `uc  1 a 1 0 ]
+"44
+} 0
+"46
+[v _Lcd8_Init Lcd8_Init `(v  1 e 1 0 ]
+{
+"60
+} 0
+"16
+[v _Lcd8_Cmd Lcd8_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd8_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd8_Cmd@a a `uc  1 a 1 wreg ]
+"18
+[v Lcd8_Cmd@a a `uc  1 a 1 5 ]
+"24
+} 0
+"64 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\MaestroPost.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"58 C:\Users\jorge\OneDrive\Escritorio\6TO_SEMESTRE\ELECTRONICA_DIGITAL2\SPI\POST3\Post3M.X\tmr0.c
+[v i1_tmr0_reload tmr0_reload `(v  1 e 1 0 ]
+{
+"62
+} 0
